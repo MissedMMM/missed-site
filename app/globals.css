@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0b0b;
+  --panel: #121212;
+  --gold: #c9a227;
+  --muted: #a1a1a1;
+}
+
+html, body { height: 100%; }
+
+body { background: var(--bg); color: white; }
